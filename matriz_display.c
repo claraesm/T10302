@@ -300,7 +300,7 @@ int main() {
       // Exibição inicial no display OLED
       ssd1306_fill(&ssd, !cor);                             // Limpa o display preenchendo com a cor oposta ao valor atual de "cor"
       ssd1306_rect(&ssd, 3, 3, 122, 58, cor, !cor);        // Desenha um retângulo com bordas dentro das coordenadas especificadas
-      ssd1306_draw_string(&ssd, "Iniciando", 27, 10);       // Escreve "Utilize" na posição (42, 10) do display
+      ssd1306_draw_string(&ssd, "Iniciando", 27, 10);       // Escreve "Inixiando" na posição (27, 10) do display
       ssd1306_draw_string(&ssd, "Use os botoes", 17, 30);// Escreve "os botoes" na posição (17, 30) do display
       ssd1306_draw_string(&ssd, "ou o teclado", 20, 50);// Escreve "ou o teclado" na posição (20, 50) do display
       ssd1306_send_data(&ssd);                         // Envia os dados para atualizar o display
